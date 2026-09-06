@@ -1,0 +1,61 @@
+Script started on 2026-09-06 19:13:46-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="46" LINES="5"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# pwd
+[?2004l/mnt/c/Users/julia/Atividade_03_IS_jtc
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# date
+[?2004lSun Sep  6 19:13:51 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K[A[K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./sched[27m[7mu[27m[7mler[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ./scheduler
+[?2004lbash: ./scheduler: No such file or directory
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc esc alonamento.c -o escalonamento
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[KModorate[m[K’ undeclared (first use in this function); did you mean ‘[01m[KModoRate[m[K’?
+   23 |         [01;31m[KModorate[m[K = 1;
+      |         [01;31m[K^~~~~~~~[m[K
+      |         [32m[KModoRate[m[K
+[01m[Kescalonamento.c:23:9:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[01m[Kescalonamento.c:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[KModoedf[m[K’ undeclared (first use in this function); did you mean ‘[01m[KModoEdf[m[K’?
+   26 |         [01;31m[KModoedf[m[K = 1;
+      |         [01;31m[K^~~~~~~[m[K
+      |         [32m[KModoEdf[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc escalonamento.c -o escalonamento
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[KModorate[m[K’ undeclared (first use in this function); did you mean ‘[01m[KModoRate[m[K’?
+   23 |         [01;31m[KModorate[m[K = 1;
+      |         [01;31m[K^~~~~~~~[m[K
+      |         [32m[KModoRate[m[K
+[01m[Kescalonamento.c:23:9:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc esc alonamento.c -o escalonamento
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ./escal onamento
+[?2004lErro: numero incorreto de argumentos.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./sched[27m[7mu[27m[7mler rate voo.txt[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ./scheduler rate voo.txt
+[?2004lbash: ./scheduler: No such file or directory
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ./scheduler rate voo.txt
+[?2004lbash: ./scheduler: No such file or directory
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ./scheduler rate voo.txt[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [C[Cescalo[9Pnamento
+[?2004lErro: numero incorreto de argumentos.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./sched[27m[7mu[27m[7mler edf voo.txt[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ./scheduler edf voo.txt
+[?2004lbash: ./scheduler: No such file or directory
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ./es[K[K[K[K./escal onamento
+[?2004lErro: numero incorreto de argumentos.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./sched[27m[7mu[27m[7mler edf voo.txt[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ./scheduler edf voo.txt
+[?2004lbash: ./scheduler: No such file or directory
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o escaloname[27m[7mn[27m[7mto[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc escalonamento.c -o escalonamento
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27mgcc escalonamento.c -o scheduler
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ls
+[?2004l[0m[01;32mescalonamento[0m  [01;32mescalonamento.c[0m  [01;32mevidencias.log[0m  [01;32mscheduler[0m
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./scheduler
+[A
+[?2004lErro: numero incorreto de argumentos.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate voo.txt[27m./scheduler rate voo.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# echo $?
+[?2004l0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler edf voo.txt[27m./scheduler edf voo.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# echo $?
+[?2004l0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler banana voo.txt[27m./scheduler banana voo.txt
+[?2004lErro: algoritmo deve ser rate ou edf.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mec
