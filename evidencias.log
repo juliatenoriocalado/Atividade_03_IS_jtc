@@ -58,4 +58,468 @@ Script started on 2026-09-06 19:13:46-03:00 [TERM="xterm-256color" TTY="/dev/pts
 [?2004l0
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler banana voo.txt[27m./scheduler banana voo.txt
 [?2004lErro: algoritmo deve ser rate ou edf.
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mec
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler banana voo.txt[27m./scheduler banana voo.txt
+[?2004lErro: algoritmo deve ser rate ou edf.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate voo.txt extra[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./scheduler rate voo.txt extra
+[A
+[?2004lErro: numero incorreto de argumentos.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# dit add[K[K[K[K[K[K[Kgit status
+[?2004lfatal: not a git repository (or any parent up to mount point /mnt)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mtouch voo.txt[27m
+[7m./scheduler rate voo.txt[27m
+[7mecho $?[27m[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# touch voo.txt
+./scheduler rate voo.txt
+echo $?
+[?2004l0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate naoexiste.txt[27m
+[7mecho $?[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ./scheduler rate naoexiste.txt
+echo $?
+[?2004l0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate naoexiste.txt[27m./scheduler rate naoexiste.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27mgcc escalonamento.c -o scheduler
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate voo.txt[27m./scheduler rate voo.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate naoexiste.txt[27m./scheduler rate naoexiste.txt
+[?2004lErro ao abrir ou criar arquivo.
+: No such file or directory
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# echo $?
+[?2004l1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# pwd
+[?2004l/mnt/c/Users/julia/Atividade_03_IS_jtc
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# date
+[?2004lMon Sep  7 11:20:34 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27mgcc escalonamento.c -o scheduler
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8\nNAV 50 30 15\n" > teste_valid[27m[7mo[27m[7m.txt[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 8\nNAV 50 30 15\n" > teste_valido.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8\nNAV 50 30 15\n" > teste_valid[27m[7mo[27m[7m.txt[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 8\nNAV 50 30 15\n" > teste_valido.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "0\n" > teste_zero.txt[27mprintf "0\n" > teste_zero.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate teste_zero.txt[27m./scheduler rate teste_zero.txt
+[?2004lErro: tempo total deve ser positivo.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "%s\n" "-5" > teste_negativo.txt[27mprintf "%s\n" "-5" > teste_negativo.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate teste_negativo.txt[27m./scheduler rate teste_negativo.txt
+[?2004lErro: tempo total deve ser positivo.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcrScript started on 2026-09-07 11:20:29-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="109" LINES="13"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# pwd
+[?2004l/mnt/c/Users/julia/Atividade_03_IS_jtc
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# date
+[?2004lMon Sep  7 11:20:34 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27mgcc escalonamento.c -o scheduler
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8\nNAV 50 30 15\n" > teste_valid[27m[7mo[27m[7m.txt[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 8\nNAV 50 30 15\n" > teste_valido.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8\nNAV 50 30 15\n" > teste_valid[27m[7mo[27m[7m.txt[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 8\nNAV 50 30 15\n" > teste_valido.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "0\n" > teste_zero.txt[27mprintf "0\n" > teste_zero.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate teste_zero.txt[27m./scheduler rate teste_zero.txt
+[?2004lErro: tempo total deve ser positivo.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "%s\n" "-5" > teste_negativo.txt[27mprintf "%s\n" "-5" > teste_negativo.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate teste_negativo.txt[27m./scheduler rate teste_negativo.txt
+[?2004lErro: tempo total deve ser positivo.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mecho $?[27mecho $?
+[?2004l1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "abc\n" > teste_texto.txt[27m
+[7m./scheduler rate teste_texto.txt[27m
+[7mecho $?[27m[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "abc\n" > teste_texto.txt
+./scheduler rate teste_texto.txt
+echo $?
+[?2004lErro: tempo total nao numerico.
+1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100abc\n" > teste_lixo.txt[27m
+[7m./scheduler rate teste_lixo.txt[27m
+[7mecho $?[27m[A[A]0;root@PCdeJliaoot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "abc\n" > teste_texto.txt[27m
+[7m./scheduler rate teste_texto.txt[27m
+[7mecho $?[27m[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "abc\n" > teste_texto.txt
+./scheduler rate teste_texto.txt
+echo $?
+[?2004lErro: tempo total nao numerico.
+1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100abc\n" > teste_lixo.txt[27m
+[7m./scheduler rate teste_lixo.txt[27m
+[7mecho $?[27m[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100abc\n" > teste_lixo.txt
+./scheduler rate teste_lixo.txt
+echo $?
+[?2004lErro: tempo total possui caracteres invalidos.
+1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27mgcc escalonamento.c -o scheduler
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8\nNAV 50 30 15\n" > voo.txt[27mprintf "100\nATT 20 12 8\nNAV 50 30 15\n" > voo.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate voo.txt[27m
+[7mecho $?[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ./scheduler rate voo.txt
+echo $?
+[?2004lATT 20 12 8
+NAV 50 30 15
+0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12\n" > malformado.txt[27m
+[7m./scheduler rate malformado.txt[27m
+[7mecho $?[27m[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12\n" > malformado.txt
+./scheduler rate malformado.txt
+echo $?
+[?2004lATT 20 12 0
+Erro: linha de tarefa mal formatada.
+1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27mgcc escalonamento.c -o scheduler
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:88:54:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarefa[m[K’ undeclared (first use in this function); did you mean ‘[01m[KTarefa[m[K’?
+   88 |     int camposLidos = sscanf(linha, "%49s %d %d %d", [01;31m[Ktarefa[m[K.nome, &tarefa.periodo, &tarefa.deadline_relativo, &tarefa.burst);
+      |                                                      [01;31m[K^~~~~~[m[K
+      |                                                      [32m[KTarefa[m[K
+[01m[Kescalonamento.c:88:54:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc escalonamento.c -o scheduler
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:88:54:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarefa[m[K’ undeclared (first use in this function); did you mean ‘[01m[KTarefa[m[K’?
+   88 |     int camposLidos = sscanf(linha, "%49s %d %d %d", [01;31m[Ktarefa[m[K.nome, &tarefa.periodo, &tarefa.deadline_relativo, &tarefa.burst);
+      |                                                      [01;31m[K^~~~~~[m[K
+      |                                                      [32m[KTarefa[m[K
+[01m[Kescalonamento.c:88:54:[m[: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100abc\n" > teste_lixo.txt
+./scheduler rate teste_lixo.txt
+echo $?
+[?2004lErro: tempo total possui caracteres invalidos.
+1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27mgcc escalonamento.c -o scheduler
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8\nNAV 50 30 15\n" > voo.txt[27mprintf "100\nATT 20 12 8\nNAV 50 30 15\n" > voo.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate voo.txt[27m
+[7mecho $?[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ./scheduler rate voo.txt
+echo $?
+[?2004lATT 20 12 8
+NAV 50 30 15
+0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12\n" > malformado.txt[27m
+[7m./scheduler rate malformado.txt[27m
+[7mecho $?[27m[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12\n" > malformado.txt
+./scheduler rate malformado.txt
+echo $?
+[?2004lATT 20 12 0
+Erro: linha de tarefa mal formatada.
+1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27mgcc escalonamento.c -o scheduler
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:88:54:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarefa[m[K’ undeclared (first use in this function); did you mean ‘[01m[KTarefa[m[K’?
+   88 |     int camposLidos = sscanf(linha, "%49s %d %d %d", [01;31m[Ktarefa[m[K.nome, &tarefa.periodo, &tarefa.deadline_relativo, &tarefa.burst);
+      |                                                      [01;31m[K^~~~~~[m[K
+      |                                                      [32m[KTarefa[m[K
+[01m[Kescalonamento.c:88:54:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc escalonamento.c -o scheduler
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:88:54:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarefa[m[K’ undeclared (first use in this function); did you mean ‘[01m[KTarefa[m[K’?
+   88 |     int camposLidos = sscanf(linha, "%49s %d %d %d", [01;31m[Ktarefa[m[K.nome, &tarefa.periodo, &tarefa.deadline_relativo, &tarefa.burst);
+      |                                                      [01;31m[K^~~~~~[m[K
+      |                                                      [32m[KTarefa[m[K
+[01m[Kescalonamento.c:88:54:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27mgcc escalonamento.c -o scheduler
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8\nNAV 50 [27m[7m3[27m[7m0 15\nCTRL 10 8 4\n" > voo.txt[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 8\nNAV 50 30 15\nCTRL 10 8 4\n" > voo.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate voo.txt[27m
+[7mecho $?[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ./scheduler rate voo.txt
+echo $?
+[?2004l0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8\nNAV 50 [27m[7m3[27m[7m0\n" > malformado.txt [27m
+[7m./scheduler rate malformado.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 8\nNAV 50 30\n" > malformado.txt
+./scheduler rate malformado.txt
+echo $?
+[?2004lSegmentation fault (core dumped)
+139
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc -Wall -Wextra escalonamento.c[27m[7m [27m[7m-o scheduler[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc -Wall -Wextra escalonamento.c -o scheduler
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:20:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KtempoTotalSimulacao[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   20 |     int [01;35m[KtempoTotalSimulacao[m[K = 0;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kescalonamento.c:17:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoEdf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   17 |     int [01;35m[KModoEdf[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[Kescalonamento.c:16:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoRate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   16 |     int [01;35m[KModoRate[m[K = 0;
+      |         [01;35m[K^~~~~~~~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc -Wall -Wextra escalonamento.c[27m[7m [27m[7m-o scheduler[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc -Wall -Wextra escalonamento.c -o scheduler
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:20:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KtempoTotalSimulacao[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   20 |     int [01;35m[KtempoTotalSimulacao[m[K = 0;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kescalonamento.c:17:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoEdf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   17 |     int [01;35m[KModoEdf[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[Kescalonamento.c:16:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoRate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   16 |     int [01;35~~~~~~~~[m[K
+[01m[Kescalonamento.c:17:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoEdf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   17 |     int [01;35m[KModoEdf[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[Kescalonamento.c:16:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoRate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   16 |     int [01;35m[KModoRate[m[K = 0;
+      |         [01;35m[K^~~~~~~~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc -Wall -Wextra escalonamento.c[27m[7m [27m[7m-o scheduler[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc -Wall -Wextra escalonamento.c -o scheduler
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:20:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KtempoTotalSimulacao[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   20 |     int [01;35m[KtempoTotalSimulacao[m[K = 0;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kescalonamento.c:17:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoEdf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   17 |     int [01;35m[KModoEdf[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[Kescalonamento.c:16:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoRate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   16 |     int [01;35m[KModoRate[m[K = 0;
+      |         [01;35m[K^~~~~~~~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8\nNAV 50 [27m[7m3[27m[7m0 15\nCTRL 10 8 4\n" > voo.txt[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 8\nNAV 50 30 15\nCTRL 10 8 4\n" > voo.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate voo.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./scheduler rate voo.txt
+[A
+[?2004lATT 20 12 8
+NAV 50 30 15
+CTRL 10 8 4
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8\nNAV 50 [27m[7m3[27m[7m0\n" > malformado.txt [27m
+[7m./scheduler rate malformado.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 8\nNAV 50 30\n" > malformado.txt
+./scheduler rate malformado.txt
+echo $?
+[?2004lErro: linha de tarefa mal formatada.
+1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 0 0 0\n" > inval[27m[7mi[27m[7mdo.txt [27m
+[7m./scheduler rate invalido.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atm[KModoRate[m[K = 0;
+      |         [01;35m[K^~~~~~~~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc -Wall -Wextra escalonamento.c[27m[7m [27m[7m-o scheduler[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc -Wall -Wextra escalonamento.c -o scheduler
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:20:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KtempoTotalSimulacao[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   20 |     int [01;35m[KtempoTotalSimulacao[m[K = 0;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kescalonamento.c:17:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoEdf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   17 |     int [01;35m[KModoEdf[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[Kescalonamento.c:16:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoRate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   16 |     int [01;35m[KModoRate[m[K = 0;
+      |         [01;35m[K^~~~~~~~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8\nNAV 50 [27m[7m3[27m[7m0 15\nCTRL 10 8 4\n" > voo.txt[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 8\nNAV 50 30 15\nCTRL 10 8 4\n" > voo.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate voo.txt[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./scheduler rate voo.txt
+[A
+[?2004lATT 20 12 8
+NAV 50 30 15
+CTRL 10 8 4
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8\nNAV 50 [27m[7m3[27m[7m0\n" > malformado.txt [27m
+[7m./scheduler rate malformado.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 8\nNAV 50 30\n" > malformado.txt
+./scheduler rate malformado.txt
+echo $?
+[?2004lErro: linha de tarefa mal formatada.
+1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 0 0 0\n" > inval[27m[7mi[27m[7mdo.txt [27m
+[7m./scheduler rate invalido.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 0 0 0\n" > invalido.txt
+./scheduler rate invalido.txt
+echo $?
+[?2004lATT 0 0 0
+0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 25 8\n" > inv[27m[7ma[27m[7mlido.txt [27m
+[7m./scheduler rate invalido.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 25 8\n" > invalido.txt
+./scheduler rate invalido.txt
+echo $?
+[?2004lATT 20 25 8
+0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/ividade_03_IS_jtc# printf "100\nATT 0 0 0\n" > invalido.txt
+./scheduler rate invalido.txt
+echo $?
+[?2004lATT 0 0 0
+0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 25 8\n" > inv[27m[7ma[27m[7mlido.txt [27m
+[7m./scheduler rate invalido.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 25 8\n" > invalido.txt
+./scheduler rate invalido.txt
+echo $?
+[?2004lATT 20 25 8
+0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 15\n" > in[27m[7mv[27m[7malido.txt [27m
+[7m./scheduler rate invalido.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 15\n" > invalido.txt
+./scheduler rate invalido.txt
+echo $?
+[?2004lATT 20 12 15
+0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 20 20\n" > va[27m[7ml[27m[7mido.txt [27m
+[7m./scheduler rate valido.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 20 20\n" > valido.txt
+./scheduler rate valido.txt
+echo $?
+[?2004lATT 20 20 20
+0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc -Wall -Wextra escalonamento.c[27m[7m [27m[7m-o scheduler[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc -Wall -Wextra escalonamento.c -o scheduler
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:20:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KtempoTotalSimulacao[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   20 |     int [01;35m[KtempoTotalSimulacao[m[K = 0;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kescalonamento.c:17:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoEdf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   17 |     int [01;35m[KModoEdf[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[Kescalonamento.c:16:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoRate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   16 |     int [01;35m[KModoRate[m[K = 0;
+      |         [01;35m[K^~~~~~~~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc -Wall -Wextra escalonamento.c[27m[7m [27m[7m-o scheduler[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc -Wall -Wextra escalonamento.c -o scheduler
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:20:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KtempoTotalSimulacao[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   20 |     int [01;35m[KtempoTotalSimulacao[m[K = 0;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kescalonamento.c:17:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoEdf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Optijulia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 15\n" > in[27m[7mv[27m[7malido.txt [27m
+[7m./scheduler rate invalido.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 15\n" > invalido.txt
+./scheduler rate invalido.txt
+echo $?
+[?2004lATT 20 12 15
+0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 20 20\n" > va[27m[7ml[27m[7mido.txt [27m
+[7m./scheduler rate valido.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 20 20\n" > valido.txt
+./scheduler rate valido.txt
+echo $?
+[?2004lATT 20 20 20
+0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc -Wall -Wextra escalonamento.c[27m[7m [27m[7m-o scheduler[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc -Wall -Wextra escalonamento.c -o scheduler
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:20:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KtempoTotalSimulacao[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   20 |     int [01;35m[KtempoTotalSimulacao[m[K = 0;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kescalonamento.c:17:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoEdf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   17 |     int [01;35m[KModoEdf[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[Kescalonamento.c:16:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoRate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   16 |     int [01;35m[KModoRate[m[K = 0;
+      |         [01;35m[K^~~~~~~~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc -Wall -Wextra escalonamento.c[27m[7m [27m[7m-o scheduler[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc -Wall -Wextra escalonamento.c -o scheduler
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:20:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KtempoTotalSimulacao[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   20 |     int [01;35m[KtempoTotalSimulacao[m[K = 0;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kescalonamento.c:17:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoEdf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   17 |     int [01;35m[KModoEdf[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[Kescalonamento.c:16:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoRate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   16 |     int [01;35m[KModoRate[m[K = 0;
+      |         [01;35m[K^~~~~~~~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc ons.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   17 |     int [01;35m[KModoEdf[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[Kescalonamento.c:16:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoRate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   16 |     int [01;35m[KModoRate[m[K = 0;
+      |         [01;35m[K^~~~~~~~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc -Wall -Wextra escalonamento.c[27m[7m [27m[7m-o scheduler[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc -Wall -Wextra escalonamento.c -o scheduler
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:20:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KtempoTotalSimulacao[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   20 |     int [01;35m[KtempoTotalSimulacao[m[K = 0;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kescalonamento.c:17:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoEdf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   17 |     int [01;35m[KModoEdf[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[Kescalonamento.c:16:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoRate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   16 |     int [01;35m[KModoRate[m[K = 0;
+      |         [01;35m[K^~~~~~~~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc -Wall -Wextra escalonamento.c[27m[7m [27m[7m-o scheduler[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc -Wall -Wextra escalonamento.c -o scheduler]
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:20:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KtempoTotalSimulacao[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   20 |     int [01;35m[KtempoTotalSimulacao[m[K = 0;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kescalonamento.c:17:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoEdf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   17 |     int [01;35m[KModoEdf[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[Kescalonamento.c:16:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoRate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   16 |     int [01;35m[KModoRate[m[K = 0;
+      |         [01;35m[K^~~~~~~~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc -Wall -Wextra escalonamento.c[27m[7m [27m[7m-o scheduler[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc -Wall -Wextra escalonamento.c -o scheduler
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:20:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KtempoTotalSimulacao[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   20 |     int [01;35m[KtempoTotalSimulacao[m[K = 0;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kescalonamento.c:17:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoEdf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   17 |     int [01;35m[KModoEdf[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[Kescalonamento.c:16:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoRate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   16 |     int [01;35m[KModoRate[m[K = 0;
+      |         [01;35m[K^~~~~~~~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27mgcc escalonamento.c -o scheduler
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc -Wall -Wextra escalonamento.c[27m[7m [27m[7m-o scheduler[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc -Wall -Wextra escalonamento.c -o scheduler
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:20:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KtempoTotalSimulacao[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   20 |     int [01;35m[KtempoTotalSimulacao[m[K = 0;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kescalonamento.c:17:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoEdf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   17 |     int [01;35m[KModoEdf[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[Kescalonamento.c:16:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoRate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   16 |     int [01;35m[KModoRate[m[K = 0;
+      |         [01;35m[K^~~~~~~~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27mgcc escalonamento.c -o scheduler
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 0 0 0\n" > inval[27m[7mi[27m[7mdo.txt [27m
+[7m./scheduler rate invalido.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 0 0 0\n" > invalido.txt
+./scheduler rate invalido.txt
+echo $?
+[?2004lErro: valores da tarefa devem ser positivos.
+1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 25 8\n" > inv[27m[7ma[27m[7mlido.txt [27m
+[7m./scheduler rate invalido.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 25 8\n" > invalido.txt
+./scheduler rate invalido.txt
+echo $?
+[?2004lErro: deadline maior que periodo.
+1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/scalonamento.c:16:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoRate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   16 |     int [01;35m[KModoRate[m[K = 0;
+      |         [01;35m[K^~~~~~~~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27mgcc escalonamento.c -o scheduler
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc -Wall -Wextra escalonamento.c[27m[7m [27m[7m-o scheduler[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc -Wall -Wextra escalonamento.c -o scheduler
+[?2004l[01m[Kescalonamento.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kescalonamento.c:20:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KtempoTotalSimulacao[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   20 |     int [01;35m[KtempoTotalSimulacao[m[K = 0;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[Kescalonamento.c:17:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoEdf[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   17 |     int [01;35m[KModoEdf[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[Kescalonamento.c:16:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KModoRate[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   16 |     int [01;35m[KModoRate[m[K = 0;
+      |         [01;35m[K^~~~~~~~[m[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27mgcc escalonamento.c -o scheduler
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 0 0 0\n" > inval[27m[7mi[27m[7mdo.txt [27m
+[7m./scheduler rate invalido.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 0 0 0\n" > invalido.txt
+./scheduler rate invalido.txt
+echo $?
+[?2004lErro: valores da tarefa devem ser positivos.
+1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 25 8\n" > inv[27m[7ma[27m[7mlido.txt [27m
+[7m./scheduler rate invalido.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 25 8\n" > invalido.txt
+./scheduler rate invalido.txt
+echo $?
+[?2004lErro: deadline maior que periodo.
+1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 15\n" > in[27m[7mv[27m[7malido.txt [27m
+[7m./scheduler rate invalido.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 15\n" > invalido.txt
+./scheduler rate invalido.txt
+echo $?
+[?2004lErro: burst maior que deadline.
+1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8 lixo\n" [27m[7m>[27m[7m invalido.txt [27m
+[7m./scheduler rate invalido.txt[27m
