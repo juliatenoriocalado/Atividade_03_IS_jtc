@@ -155,14 +155,49 @@ int main(int argc, char *argv[]){
 
     }
 
-    for (int i = 0; i < quantidadeDeTarefas; i++){
-    printf("%s restante=%d deadlineAbs=%d prox=%d ativa=%d\n",
-        listaDeTarefas[i].nome,
-        listaDeTarefas[i].restante,
-        listaDeTarefas[i].deadline_absoluto,
-        listaDeTarefas[i].proxima_chegada,
-        listaDeTarefas[i].ativa
-        );
+    for (int tempo = 0; tempo < tempoTotalSimulacao; tempo++){
+
+        for (int i = 0; i < quantidadeDeTarefas; i++){
+
+            if (listaDeTarefas[i].ativa &&
+                tempo == listaDeTarefas[i].deadline_absoluto &&
+                listaDeTarefas[i].restante > 0){
+
+                listaDeTarefas[i].restante = 0;
+                listaDeTarefas[i].ativa = 0;
+            }
+
+            if (tempo == listaDeTarefas[i].proxima_chegada){
+
+                listaDeTarefas[i].restante = listaDeTarefas[i].burst;
+                listaDeTarefas[i].deadline_absoluto =
+                    tempo + listaDeTarefas[i].deadline_relativo;
+
+                listaDeTarefas[i].proxima_chegada =
+                    tempo + listaDeTarefas[i].periodo;
+
+                listaDeTarefas[i].ativa = 1;
+            }
+        }
+
+        int indiceEscolhido = -1;
+
+        for (int i = 0; i < quantidadeDeTarefas; i++){
+
+            if (listaDeTarefas[i].ativa){
+                indiceEscolhido = i;
+                break;
+            }
+        }
+
+        if (indiceEscolhido != -1){
+
+            listaDeTarefas[indiceEscolhido].restante--;
+
+            if (listaDeTarefas[indiceEscolhido].restante == 0){
+                listaDeTarefas[indiceEscolhido].ativa = 0;
+            }
+        }
     }
 
     fclose(arquivo);
