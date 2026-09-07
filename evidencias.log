@@ -651,4 +651,41 @@ After doing this, you may fix the identity used for this commit with:
 [?2004lUsername for 'https://github.com': juliatenorioc             ^C
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mscript -a evidencias.log[27mscript -a evidencias.log
 [?2004lScript started, output log file is 'evidencias.log'.
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/ade_03_IS_jtc.git/'
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc escalonamento.c -o scheduler
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8\nNAV 50 [27m[7m3[27m[7m0 15\n" > voo.txt[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 8\nNAV 50 30 15\n" > voo.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate voo.txt[27m./scheduler rate voo.txt
+[?2004lATT restante=8 deadlineAbs=12 prox=20 ativa=1
+NAV restante=15 deadlineAbs=30 prox=50 ativa=1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgit add escalonamento.c evidencia[27m[7ms[27m[7m.log[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# git add escalonamento.c evidencias.log
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgit commit -m "Inicializa estado [27m[7md[27m[7mas instancias das tarefas"[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# git commit -m "Inicializa estado das instancias das tarefas"
+[?2004l[main 67b9a24] Inicializa estado das instancias das tarefas
+ Committer: root <root@PCdeJlia.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 109 insertions(+), 1 deletion(-)
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# git push
+[?2004lUsername for 'https://github.com': juliatenorioc             ^C
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mscript -a evidencias.log[27mscript -a evidencias.log
+[?2004lScript started, output log file is 'evidencias.log'.
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# pwd
+[?2004l/mnt/c/Users/julia/Atividade_03_IS_jtc
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# date
+[?2004lMon Sep  7 19:15:54 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mscript -a evidencias.log[27m[1Pscript -a evidencias.lo[K[K[K[K[K[K[K[K[K[K[K[K[K[K

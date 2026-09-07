@@ -182,12 +182,24 @@ int main(int argc, char *argv[]){
 
         int indiceEscolhido = -1;
 
-        for (int i = 0; i < quantidadeDeTarefas; i++){
+        if (ModoRate){
+            for (int i = 0; i < quantidadeDeTarefas; i++){
+                if (listaDeTarefas[i].ativa == 0){
+                    continue;
+                }
 
-            if (listaDeTarefas[i].ativa){
-                indiceEscolhido = i;
-                break;
+                if (indiceEscolhido == -1){
+                    indiceEscolhido = i;
+                }
+
+                else if (listaDeTarefas[i].periodo < listaDeTarefas[indiceEscolhido].periodo){
+                    indiceEscolhido = i;
+                }
             }
+        }
+
+        else if (ModoEdf){
+
         }
 
         if (indiceEscolhido != -1){
