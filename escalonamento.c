@@ -6,10 +6,16 @@
 #include <limits.h>
 
 typedef struct Tarefa{
+    //fixos
     char nome[50];
     int periodo;
     int deadline_relativo;
     int burst;
+    //mudam durante a execução
+    int restante;
+    int deadline_absoluto;
+    int proxima_chegada;
+    int ativa;
 } Tarefa;
 
 int main(int argc, char *argv[]){
@@ -128,6 +134,11 @@ int main(int argc, char *argv[]){
             exit(1);
         }
 
+        tarefa.restante = tarefa.burst;
+        tarefa.deadline_absoluto = tarefa.deadline_relativo;
+        tarefa.proxima_chegada = tarefa.periodo;
+        tarefa.ativa = 1;
+
         Tarefa *temporario = realloc(listaDeTarefas, sizeof(Tarefa) * (quantidadeDeTarefas + 1));
 
         if (temporario == NULL){
@@ -142,6 +153,16 @@ int main(int argc, char *argv[]){
         listaDeTarefas[quantidadeDeTarefas] = tarefa;
         quantidadeDeTarefas++;
 
+    }
+
+    for (int i = 0; i < quantidadeDeTarefas; i++){
+    printf("%s restante=%d deadlineAbs=%d prox=%d ativa=%d\n",
+        listaDeTarefas[i].nome,
+        listaDeTarefas[i].restante,
+        listaDeTarefas[i].deadline_absoluto,
+        listaDeTarefas[i].proxima_chegada,
+        listaDeTarefas[i].ativa
+        );
     }
 
     fclose(arquivo);

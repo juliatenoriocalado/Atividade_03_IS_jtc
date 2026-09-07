@@ -522,4 +522,91 @@ CTRL 10 8 4
 [?2004lErro: burst maior que deadline.
 1
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8 lixo\n" [27m[7m>[27m[7m invalido.txt [27m
-[7m./scheduler rate invalido.txt[27m
+[7m./scheduler rate invalido.txt[27mjulia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 15\n" > in[27m[7mv[27m[7malido.txt [27m
+[7m./scheduler rate invalido.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 15\n" > invalido.txt
+./scheduler rate invalido.txt
+echo $?
+[?2004lErro: burst maior que deadline.
+1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8 lixo\n" [27m[7m>[27m[7m invalido.txt [27m
+[7m./scheduler rate invalido.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 8 lixo\n" > invalido.txt
+./scheduler rate invalido.txt
+echo $?
+[?2004lErro: linha de tarefa mal formatada.
+1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 20 20\n" > va[27m[7ml[27m[7mido.txt [27m
+[7m./scheduler rate valido.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 20 20\n" > valido.txt
+./scheduler rate valido.txt
+echo $?
+[?2004lATT 20 20 20
+0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc escalonamento.c -o scheduler
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8\nNAV 50 [27m[7m3[27m[7m0 15\n" > valido.txt[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 8\nNAV 50 30 15\n" > valido.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate valido.txt[27m./scheduler rate valido.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgit add escalonamento.c evidencia[27m[7ms[27m[7m.log[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# git add escalonamento.c evidencias.log
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgit commit -m "Implementa leitura[27m[7m [27m[7me validacao do arquivo de entrada"[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# git commit -m "Implementa leitura e validacao do arquivo de entrada"
+[?2004l[main 9400309] Implementa leitura e validacao do arquivo de entrada
+ Committer: root <root@PCdeJlia.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 8 lixo\n" > invalido.txt
+./scheduler rate invalido.txt
+echo $?
+[?2004lErro: linha de tarefa mal formatada.
+1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 20 20\n" > va[27m[7ml[27m[7mido.txt [27m
+[7m./scheduler rate valido.txt[27m
+[7mecho $?[27m[A[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 20 20\n" > valido.txt
+./scheduler rate valido.txt
+echo $?
+[?2004lATT 20 20 20
+0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc escalonamento.c -o scheduler
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K 
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "100\nATT 20 12 8\nNAV 50 [27m[7m3[27m[7m0 15\n" > valido.txt[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "100\nATT 20 12 8\nNAV 50 30 15\n" > valido.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate valido.txt[27m./scheduler rate valido.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgit add escalonamento.c evidencia[27m[7ms[27m[7m.log[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# git add escalonamento.c evidencias.log
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgit commit -m "Implementa leitura[27m[7m [27m[7me validacao do arquivo de entrada"[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# git commit -m "Implementa leitura e validacao do arquivo de entrada"
+[?2004l[main 9400309] Implementa leitura e validacao do arquivo de entrada
+ Committer: root <root@PCdeJlia.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 656 insertions(+), 33 deletions(-)
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# git push[[K
+[?2004lUsername for 'https://github.com': gcc escalonamento.c -o scheduler
+
+printf "100\nATT 20 12 8\nNAV 50 30 15\n" > voo.txt
+
+./scheduler rate voo.txt
+echo $?Password for 'https://gcc%20escalonamento.c%20-o%20scheduler@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/juliatenoriocalado/Ativid
