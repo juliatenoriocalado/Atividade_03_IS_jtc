@@ -198,13 +198,26 @@ int main(int argc, char *argv[]){
             }
         }
 
-        else if (ModoEdf){
+        if (ModoEdf){
+            for (int i = 0; i < quantidadeDeTarefas; i++){
+                if (listaDeTarefas[i].ativa == 0){
+                    continue;
+                }
 
+                if (indiceEscolhido == -1){
+                    indiceEscolhido = i;
+                }
+
+                else if (listaDeTarefas[i].deadline_absoluto < listaDeTarefas[indiceEscolhido].deadline_absoluto){
+                    indiceEscolhido = i;
+                }
+            }
         }
 
         if (indiceEscolhido != -1){
 
             listaDeTarefas[indiceEscolhido].restante--;
+            printf("t=%d -> %s\n", tempo, listaDeTarefas[indiceEscolhido].nome);
 
             if (listaDeTarefas[indiceEscolhido].restante == 0){
                 listaDeTarefas[indiceEscolhido].ativa = 0;
