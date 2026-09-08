@@ -16,6 +16,10 @@ typedef struct Tarefa{
     int deadline_absoluto;
     int proxima_chegada;
     int ativa;
+    //são meio que os contadores ou acumuladores da tarefa durante a simulaçao inteira
+    int deadlines_perdidos;
+    int execucao_completa;
+    int morta;
 } Tarefa;
 
 int main(int argc, char *argv[]){
@@ -138,6 +142,9 @@ int main(int argc, char *argv[]){
         tarefa.deadline_absoluto = tarefa.deadline_relativo;
         tarefa.proxima_chegada = tarefa.periodo;
         tarefa.ativa = 1;
+        tarefa.deadlines_perdidos = 0;
+        tarefa.execucao_completa = 0;
+        tarefa.morta = 0;
 
         Tarefa *temporario = realloc(listaDeTarefas, sizeof(Tarefa) * (quantidadeDeTarefas + 1));
 
@@ -163,9 +170,8 @@ int main(int argc, char *argv[]){
 
         for (int i = 0; i < quantidadeDeTarefas; i++){
 
-            if (listaDeTarefas[i].ativa &&
-                tempo == listaDeTarefas[i].deadline_absoluto &&
-                listaDeTarefas[i].restante > 0){
+            if (listaDeTarefas[i].ativa && tempo == listaDeTarefas[i].deadline_absoluto && listaDeTarefas[i].restante > 0){
+                listaDeTarefas[i].deadlines_perdidos++;
                 if (i == ultimoExecutado && unidadeDoBloco > 0){
                     printf("[%s] for %d units - L\n", listaDeTarefas[i].nome, unidadeDoBloco);
                     ultimoExecutado = -1;
@@ -176,14 +182,9 @@ int main(int argc, char *argv[]){
             }
 
             if (tempo == listaDeTarefas[i].proxima_chegada){
-
                 listaDeTarefas[i].restante = listaDeTarefas[i].burst;
-                listaDeTarefas[i].deadline_absoluto =
-                    tempo + listaDeTarefas[i].deadline_relativo;
-
-                listaDeTarefas[i].proxima_chegada =
-                    tempo + listaDeTarefas[i].periodo;
-
+                listaDeTarefas[i].deadline_absoluto = tempo + listaDeTarefas[i].deadline_relativo;
+                listaDeTarefas[i].proxima_chegada = tempo + listaDeTarefas[i].periodo;
                 listaDeTarefas[i].ativa = 1;
             }
         }
@@ -253,20 +254,47 @@ int main(int argc, char *argv[]){
             unidadeDoBloco++;
 
             if (listaDeTarefas[indiceEscolhido].restante == 0){
-                printf("[%s] for %d units - F\n",
-                    listaDeTarefas[indiceEscolhido].nome,
-                    unidadeDoBloco);
-
+                printf("[%s] for %d units - F\n", listaDeTarefas[indiceEscolhido].nome, unidadeDoBloco);
                 listaDeTarefas[indiceEscolhido].ativa = 0;
-
                 ultimoExecutado = -1;
                 unidadeDoBloco = 0;
+                listaDeTarefas[indiceEscolhido].execucao_completa++;
             }
+        }
+    }
+
+    for (int i = 0; i < quantidadeDeTarefas; i++){
+        if (listaDeTarefas[i].ativa && listaDeTarefas[i].restante > 0){
+            listaDeTarefas[i].morta = 1;
         }
     }
 
     if (unidadesIdle > 0){
         printf("idle for %d units\n", unidadesIdle);
+    }
+
+    printf("LOST DEADLINES\n");
+
+    for (int i = 0; i < quantidadeDeTarefas; i++){
+        printf("[%s] %d\n",
+            listaDeTarefas[i].nome,
+            listaDeTarefas[i].deadlines_perdidos);
+    }
+
+    printf("COMPLETE EXECUTION\n");
+
+    for (int i = 0; i < quantidadeDeTarefas; i++){
+        printf("[%s] %d\n",
+            listaDeTarefas[i].nome,
+            listaDeTarefas[i].execucao_completa);
+    }
+
+    printf("KILLED\n");
+
+    for (int i = 0; i < quantidadeDeTarefas; i++){
+        printf("[%s] %d\n",
+            listaDeTarefas[i].nome,
+            listaDeTarefas[i].morta);
     }
 
     fclose(arquivo);
