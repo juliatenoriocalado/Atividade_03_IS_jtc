@@ -688,4 +688,27 @@ After doing this, you may fix the identity used for this commit with:
 [?2004l/mnt/c/Users/julia/Atividade_03_IS_jtc
 [?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# date
 [?2004lMon Sep  7 19:15:54 -03 2026
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mscript -a evidencias.log[27m[1Pscript -a evidencias.lo[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mscript -a evidencias.log[27m[1Pscript -a evidencias.lo[K[K[K[K[K[K[K[K[K[K[K[K[K[KScript started on 2026-09-07 20:45:25-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="87" LINES="6"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# whoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ped[K[Kwd
+[?2004l/mnt/c/Users/julia/Atividade_03_IS_jtc
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# date
+[?2004lMon Sep  7 20:45:29 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27m
+[7mprintf "6\nA 5 5 2\nB 10 3 1\n" > teste_edf.txt[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc escalonamento.c -o scheduler
+printf "6\nA 5 5 2\nB 10 3 1\n" > teste_edf.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate teste_edf.txt[27m./scheduler rate teste_edf.txt
+[?2004lt=0 -> A
+t=1 -> A
+t=2 -> B
+t=5 -> A
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler edf teste_edf.txt[27m./scheduler edf teste_edf.txt
+[?2004lt=0 -> B
+t=1 -> A
+t=2 -> A
+t=5 -> A
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ft[K[Kgut[K[K[K[?2004l
+exit
+
+Script done on 2026-09-07 21:00:48-03:00 [COMMAND_EXIT_CODE="0"]

@@ -155,6 +155,10 @@ int main(int argc, char *argv[]){
 
     }
 
+    int ultimoExecutado = -1;
+    int unidadeDoBloco = 0;
+    int unidadesIdle = 0;
+
     for (int tempo = 0; tempo < tempoTotalSimulacao; tempo++){
 
         for (int i = 0; i < quantidadeDeTarefas; i++){
@@ -162,7 +166,11 @@ int main(int argc, char *argv[]){
             if (listaDeTarefas[i].ativa &&
                 tempo == listaDeTarefas[i].deadline_absoluto &&
                 listaDeTarefas[i].restante > 0){
-
+                if (i == ultimoExecutado && unidadeDoBloco > 0){
+                    printf("[%s] for %d units - L\n", listaDeTarefas[i].nome, unidadeDoBloco);
+                    ultimoExecutado = -1;
+                    unidadeDoBloco = 0;
+                }
                 listaDeTarefas[i].restante = 0;
                 listaDeTarefas[i].ativa = 0;
             }
@@ -213,16 +221,52 @@ int main(int argc, char *argv[]){
                 }
             }
         }
+        if (indiceEscolhido == -1){
+            unidadesIdle++;
+        }
+
+        else{
+            if (unidadesIdle > 0){
+                printf("idle for %d units\n", unidadesIdle);
+                unidadesIdle = 0;
+            }
+        }
 
         if (indiceEscolhido != -1){
 
+            if (ultimoExecutado == -1){
+                ultimoExecutado = indiceEscolhido;
+                unidadeDoBloco = 0;
+            }
+
+            else if (indiceEscolhido != ultimoExecutado){
+
+                printf("[%s] for %d units - H\n",
+                    listaDeTarefas[ultimoExecutado].nome,
+                    unidadeDoBloco);
+
+                ultimoExecutado = indiceEscolhido;
+                unidadeDoBloco = 0;
+            }
+
             listaDeTarefas[indiceEscolhido].restante--;
-            printf("t=%d -> %s\n", tempo, listaDeTarefas[indiceEscolhido].nome);
+            unidadeDoBloco++;
 
             if (listaDeTarefas[indiceEscolhido].restante == 0){
+                printf("[%s] for %d units - F\n",
+                    listaDeTarefas[indiceEscolhido].nome,
+                    unidadeDoBloco);
+
                 listaDeTarefas[indiceEscolhido].ativa = 0;
+
+                ultimoExecutado = -1;
+                unidadeDoBloco = 0;
             }
         }
+    }
+
+    if (unidadesIdle > 0){
+        printf("idle for %d units\n", unidadesIdle);
     }
 
     fclose(arquivo);
