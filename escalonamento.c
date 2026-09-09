@@ -290,14 +290,6 @@ int main(int argc, char *argv[]){
         }
     }
 
-    if (ultimoExecutado != -1 && unidadeDoBloco > 0){
-        fprintf(saida, "[%s] for %d units - H\n",
-                listaDeTarefas[ultimoExecutado].nome,
-                unidadeDoBloco);
-        ultimoExecutado = -1;
-        unidadeDoBloco = 0;
-    }
-
     for (int i = 0; i < quantidadeDeTarefas; i++){
         if (listaDeTarefas[i].ativa && listaDeTarefas[i].restante > 0){
             listaDeTarefas[i].morta = 1;
