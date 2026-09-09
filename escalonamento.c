@@ -162,6 +162,32 @@ int main(int argc, char *argv[]){
 
     }
 
+    FILE *saida;
+    char *nomeSaida;
+
+    if (ModoRate){
+        nomeSaida = "rate_jtc.out";
+    }
+    else{
+        nomeSaida = "edf_jtc.out";
+    }
+
+    saida = fopen(nomeSaida, "w");
+
+    if (saida == NULL){
+        perror("Erro ao criar arquivo de saida");
+        free(listaDeTarefas);
+        fclose(arquivo);
+        exit(1);
+    }
+
+    if (ModoRate){
+        fprintf(saida, "EXECUTION BY RATE\n");
+    }
+    else{
+        fprintf(saida, "EXECUTION BY EDF\n");
+    }
+
     int ultimoExecutado = -1;
     int unidadeDoBloco = 0;
     int unidadesIdle = 0;
@@ -173,7 +199,7 @@ int main(int argc, char *argv[]){
             if (listaDeTarefas[i].ativa && tempo == listaDeTarefas[i].deadline_absoluto && listaDeTarefas[i].restante > 0){
                 listaDeTarefas[i].deadlines_perdidos++;
                 if (i == ultimoExecutado && unidadeDoBloco > 0){
-                    printf("[%s] for %d units - L\n", listaDeTarefas[i].nome, unidadeDoBloco);
+                    fprintf(saida, "[%s] for %d units - L\n", listaDeTarefas[i].nome, unidadeDoBloco);
                     ultimoExecutado = -1;
                     unidadeDoBloco = 0;
                 }
@@ -222,13 +248,14 @@ int main(int argc, char *argv[]){
                 }
             }
         }
+
         if (indiceEscolhido == -1){
             unidadesIdle++;
         }
 
         else{
             if (unidadesIdle > 0){
-                printf("idle for %d units\n", unidadesIdle);
+                fprintf(saida, "idle for %d units\n", unidadesIdle);
                 unidadesIdle = 0;
             }
         }
@@ -242,7 +269,7 @@ int main(int argc, char *argv[]){
 
             else if (indiceEscolhido != ultimoExecutado){
 
-                printf("[%s] for %d units - H\n",
+                fprintf(saida, "[%s] for %d units - H\n",
                     listaDeTarefas[ultimoExecutado].nome,
                     unidadeDoBloco);
 
@@ -254,13 +281,21 @@ int main(int argc, char *argv[]){
             unidadeDoBloco++;
 
             if (listaDeTarefas[indiceEscolhido].restante == 0){
-                printf("[%s] for %d units - F\n", listaDeTarefas[indiceEscolhido].nome, unidadeDoBloco);
+                fprintf(saida, "[%s] for %d units - F\n", listaDeTarefas[indiceEscolhido].nome, unidadeDoBloco);
                 listaDeTarefas[indiceEscolhido].ativa = 0;
                 ultimoExecutado = -1;
                 unidadeDoBloco = 0;
                 listaDeTarefas[indiceEscolhido].execucao_completa++;
             }
         }
+    }
+
+    if (ultimoExecutado != -1 && unidadeDoBloco > 0){
+        fprintf(saida, "[%s] for %d units - H\n",
+                listaDeTarefas[ultimoExecutado].nome,
+                unidadeDoBloco);
+        ultimoExecutado = -1;
+        unidadeDoBloco = 0;
     }
 
     for (int i = 0; i < quantidadeDeTarefas; i++){
@@ -270,34 +305,36 @@ int main(int argc, char *argv[]){
     }
 
     if (unidadesIdle > 0){
-        printf("idle for %d units\n", unidadesIdle);
+        fprintf(saida, "idle for %d units\n", unidadesIdle);
     }
 
-    printf("LOST DEADLINES\n");
+    fprintf(saida, "LOST DEADLINES\n");
 
     for (int i = 0; i < quantidadeDeTarefas; i++){
-        printf("[%s] %d\n",
+        fprintf(saida, "[%s] %d\n",
             listaDeTarefas[i].nome,
             listaDeTarefas[i].deadlines_perdidos);
     }
 
-    printf("COMPLETE EXECUTION\n");
+    fprintf(saida, "COMPLETE EXECUTION\n");
 
     for (int i = 0; i < quantidadeDeTarefas; i++){
-        printf("[%s] %d\n",
+        fprintf(saida, "[%s] %d\n",
             listaDeTarefas[i].nome,
             listaDeTarefas[i].execucao_completa);
     }
 
-    printf("KILLED\n");
+    fprintf(saida, "KILLED\n");
 
     for (int i = 0; i < quantidadeDeTarefas; i++){
-        printf("[%s] %d\n",
+        fprintf(saida, "[%s] %d\n",
             listaDeTarefas[i].nome,
             listaDeTarefas[i].morta);
     }
 
+
     fclose(arquivo);
+    fclose(saida);
     free(listaDeTarefas);
 
     return 0;
