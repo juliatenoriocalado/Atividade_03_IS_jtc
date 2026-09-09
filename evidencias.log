@@ -772,4 +772,76 @@ COMPLETE EXECUTION
 KILLED
 [ATT] 0
 [NAV] 0
-[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PC
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCScript started on 2026-09-09 18:55:06-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="87" LINES="7"]
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# h[Kwhoami
+[?2004lroot
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# pwd
+[?2004l/mnt/c/Users/julia/Atividade_03_IS_jtc
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# date
+[?2004lWed Sep  9 18:55:11 -03 2026
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [K]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27mgcc escalonamento.c -o scheduler
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mrm -f rate_jtc.out[27m
+[7m./scheduler rate voo.txt[27m
+[7mecho $?[27m[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# rm -f rate_jtc.out
+./scheduler rate voo.txt
+echo $?
+[?2004l0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mls -l rate_jtc.out[27m
+[7mcat rate_jtc.out[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ls -l rate_jtc.out
+cat rate_jtc.out
+[?2004l-rwxrwxrwx 1 root root 377 Sep  9 19:35 [0m[01;32mrate_jtc.out[0m
+EXECUTION BY RATE
+[ATT] for 8 units - F
+[NAV] for 12 units - H
+[ATT] for 8 units - F
+[NAV] for 2 units - L
+idle for 10 units
+[ATT] for 8 units - F
+idle for 2 units
+[NAV] for 10 units - H
+[ATT] for 8 units - F
+[NAV] for 5 units - F
+idle for 7 units
+[ATT] for 8 units - F
+idle for 12 units
+LOST DEADLINES
+[ATT] 0
+[NAV] 1
+COMPLETE EXECUTION
+[ATT] 5
+[NAV] 1
+KILLED
+[ATT] 0
+[NAV] 0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mprintf "3\nA 10 10 5\n" > teste_k[27m[7mi[27m[7mlled.txt[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# printf "3\nA 10 10 5\n" > teste_killed.txt
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate teste_killed.txt[27m 
+[7mcat rate_jtc.out[27m[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ./scheduler rate teste_killed.txt 
+cat rate_jtc.out
+[?2004lEXECUTION BY RATE
+LOST DEADLINES
+[A] 0
+COMPLETE EXECUTION
+[A] 0
+KILLED
+[A] 1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgcc escalonamento.c -o scheduler[27m
+[7m./scheduler rate teste_killed.txt[27m
+[7mcat rate_jtc.out[27m[A[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# gcc escalonamento.c -o scheduler
+./scheduler rate teste_killed.txt
+cat rate_jtc.out
+[?2004lEXECUTION BY RATE
+[A] for 3 units - H
+LOST DEADLINES
+[A] 0
+COMPLETE EXECUTION
+[A] 0
+KILLED
+[A] 1
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7m./scheduler rate voo.txt[27m
+[7mcat rate_jtc.out[27m[A]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ./scheduler rate voo.txt
+cat rate_jtc.out
+[?2004lEXECUTION BY RATE
+[ATT] for 8 units - F
+[NAV] for 12 units - H
+[ATT] for 8 units - F
+[NAV] for 2 units - 
