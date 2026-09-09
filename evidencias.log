@@ -1245,4 +1245,103 @@ Untracked files:
 	[31mteste_valido.txt[m
 	[31mteste_zero.txt[m
 	[31mvalido.txt[m
-	[31mvoo.t
+	[31mvoo.ttividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# ./scheduler rate voo.txt
+cat rate_jtc.out
+
+./scheduler edf voo.txt
+cat edf_jtc.out
+[?2004lEXECUTION BY RATE
+[ATT] for 8 units - F
+[NAV] for 12 units - H
+[ATT] for 8 units - F
+[NAV] for 2 units - L
+idle for 10 units
+[ATT] for 8 units - F
+idle for 2 units
+[NAV] for 10 units - H
+[ATT] for 8 units - F
+[NAV] for 5 units - F
+idle for 7 units
+[ATT] for 8 units - F
+idle for 12 units
+LOST DEADLINES
+[ATT] 0
+[NAV] 1
+COMPLETE EXECUTION
+[ATT] 5
+[NAV] 1
+KILLED
+[ATT] 0
+[NAV] 0
+EXECUTION BY EDF
+[ATT] for 8 units - F
+[NAV] for 15 units - F
+[ATT] for 8 units - F
+idle for 9 units
+[ATT] for 8 units - F
+idle for 2 units
+[NAV] for 10 units - H
+[ATT] for 8 units - F
+[NAV] for 5 units - F
+idle for 7 units
+[ATT] for 8 units - F
+idle for 12 units
+LOST DEADLINES
+[ATT] 0
+[NAV] 0
+COMPLETE EXECUTION
+[ATT] 5
+[NAV] 2
+KILLED
+[ATT] 0
+[NAV] 0
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgit status[27mgit status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   Makefile[m
+	[31mmodified:   README.md[m
+	[31mmodified:   escalonamento.c[m
+	[31mmodified:   evidencias.log[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mcalonamento.c evidencias.log[m
+	[31medf_jtc.out[m
+	[31mescalonamento[m
+	[31minvalido.txt[m
+	[31mmalformado.txt[m
+	[31mrate_jtc.out[m
+	[31mscheduler[m
+	[31mscheduler.exe[m
+	[31mscheduler][m
+	[31mteste_edf.txt[m
+	[31mteste_erro.txt[m
+	[31mteste_killed.txt[m
+	[31mteste_lixo.txt[m
+	[31mteste_negativo.txt[m
+	[31mteste_rate.txt[m
+	[31mteste_simulador.txt[m
+	[31mteste_texto.txt[m
+	[31mteste_valido.txt[m
+	[31mteste_zero.txt[m
+	[31mvalido.txt[m
+	[31mvoo.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgit add escalonamento.c Makefile README.md evidencias.log[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add escalonamento.c Makefile README.md evidencias.log
+[?2004l[?2004h]0;root@PCdeJlia: /mnt/c/Users/julia/Atividade_03_IS_jtcroot@PCdeJlia:/mnt/c/Users/julia/Atividade_03_IS_jtc# [7mgit commit -m "Finaliza implementacao e testes do escalonador"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m "Finaliza implementacao e testes do escalonador"[1P[1P[1P[1P[1P[1P[1P[1@f[1@i[1@n[C[1@a[1@l[1@i[1@z[C[1@n[1@d[1@o[C[1@ [1@a[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C "("t"i"[1P"[1P"r"e"t"i"r"a"n"d"o" "t"a"m"b"é"m" "a" "m"e"n"s"a"g"f"e"m"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[C
+[?2004lgit[main c46f4e5] finalizando a implementacao e testes do escalonador
+ Committer: root <root@PCdeJlia.localdomain>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for 
